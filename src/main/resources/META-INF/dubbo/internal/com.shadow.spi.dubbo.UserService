@@ -1,0 +1,2 @@
+user1=com.shadow.spi.dubbo.UserServiceImpl1
+user2=com.shadow.spi.dubbo.UserServiceImpl2
