@@ -1,1 +1,2 @@
 com.shadow.spi.spring.UserService=com.shadow.spi.spring.UserServiceImpl1,com.shadow.spi.spring.UserServiceImpl2
+com.shadow.spi.spring.AbstractAccountService=com.shadow.spi.spring.AccountService1,com.shadow.spi.spring.AccountService2

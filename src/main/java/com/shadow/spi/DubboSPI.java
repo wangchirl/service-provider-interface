@@ -17,6 +17,7 @@ import org.apache.dubbo.common.extension.ExtensionLoader;
  */
 public class DubboSPI {
 	public static void main(String[] args) {
+		// 接口
 		ExtensionLoader<UserService> extensionLoader = ExtensionLoader.getExtensionLoader(UserService.class);
 		extensionLoader.getDefaultExtension().dubbo(); // @SPI("user2")
 		extensionLoader.getExtension("user1").dubbo();
